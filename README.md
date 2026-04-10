@@ -6,10 +6,11 @@ the code is based entirely on beej's guide to network programming. all the socke
 
 structure
 
-file-transfer/
-    server/ft_server.c - the server. it waits for a client to connect, reads the command (GET or PUT), and either sends or receives a file.
-    client/ft_client.c - the client. you run this with the server ip, type get or put commands, and it handles the file transfer.
-    Makefile - builds both the server and client.
+file-transfer/server/ft_server.c - the server. it waits for a client to connect, reads the command (GET or PUT), and either sends or receives a file.
+
+file-transfer/client/ft_client.c - the client. you run this with the server ip, type get or put commands, and it handles the file transfer.
+
+file-transfer/Makefile - builds both the server and client.
 
 why it is split into server and client folders
 
