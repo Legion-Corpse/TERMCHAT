@@ -1,0 +1,16 @@
+# claude code local settings
+.claude/
+
+# pdf
+*.pdf
+
+# group chat (not ready)
+Group-Chat/
+
+# compiled binaries
+file-transfer/server/ft_server
+file-transfer/client/ft_client
+
+# build artifacts
+*.o
+*.out
